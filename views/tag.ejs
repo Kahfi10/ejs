@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= tag %> - Dev com</title>
+    <title><%= data.title %> - Dev com</title>
 </head>
 <body>
-    <h1>tags</h1>
+    <% if(data.img) { %>
+        <img src="<%= data.img %>" alt="<%= data.title %>">
+    <% } %>
+    <h1>Tag <%= data.title %></h1>
+    <h3>Desk: <%= data.description %></h3>
+    <p>Followers: <%= data.followers %></p>
 </body>
 </html>

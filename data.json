@@ -1,0 +1,34 @@
+{
+    "Java": {
+        "title": "Java",
+        "followers": 1000,
+        "description": "Java is a high-level programming language developed by Sun Microsystems. It was originally designed for developing programs for set-top boxes and handheld devices, but later became a popular choice for creating web applications.",
+        "img": "https://www.tutorialrepublic.com/lib/images/java-illustration.png",
+        "posts": [
+            {
+                "title": "Java Toturial",
+                "author": "John Doe"
+            },
+            {
+                "title": "Java Language",
+                "author": "Kahfi"
+            }
+        ]
+    },
+    "Python": {
+        "title": "Python",
+        "followers": 2000,
+        "description": "Python is a high-level programming language developed by Guido van Rossum. It was first released in 1991, which makes it one of the oldest programming languages in the world.",
+        "img": "https://www.tutorialrepublic.com/lib/images/python-illustration.png",
+        "posts": [
+            {
+                "title": "Python Toturial",
+                "author": "John Doe"
+            },
+            {
+                "title": "Python Language",
+                "author": "Kahfi"
+            }
+        ]
+    }
+}
